@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
-import {logo} from '../assets/LOGOB.png'
+import logo from '../assets/LOGOB.png'
 
 const navigation = [
   { name: 'Home', href: '/' },
