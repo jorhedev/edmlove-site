@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
+import {logo} from '../assets/LOGOB.png'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -24,7 +25,7 @@ export default function Navbar () {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-9 w-auto"
-                src="src/assets/LOGOB.png"
+                src={logo}
                 alt=""
               />
             </a>
