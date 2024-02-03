@@ -25,16 +25,22 @@ export default function PostSingle() {
                 alt=""
               />
 
-              <div>
-                <p className="mt-6 text-sm text-blue-500 uppercase">{post.date}</p>
+              <div className="flex flex-col items-center justify-center text-center">
+                <p className="mt-6 text-sm text-blue-500 uppercase">
+                  {post?.date}
+                </p>
 
                 <h1 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                  {post.title}
+                  {post?.title}
                 </h1>
 
-                <h2 className="mt-6 text-lg leading-8 text-gray-600">
-                  {post.description}
+                <h2 className="mt-9 text-lg leading-8 text-gray-600 w-90 ">
+                  {post?.introduction}
                 </h2>
+
+                <p className="mt-6 text-lg leading-8 text-gray-600 w-90 ">
+                  {post?.conclusion}
+                </p>
 
                 <div className="flex items-center mt-6">
                   <img

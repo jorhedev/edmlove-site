@@ -38,7 +38,7 @@ export default function Header () {
                   Explora Ahora
                 </a>
                 <a
-                  href="#"
+                  href="/post"
                   className="text-sm font-semibold leading-6 text-gray-900"
                 >
                   Conoce Más

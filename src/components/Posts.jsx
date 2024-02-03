@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import PropTypes from 'prop-types'; // Importa PropTypes
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Posts({data}) {
 
+  const location = useLocation();
 
 
   return (
@@ -22,7 +23,7 @@ export default function Posts({data}) {
 
           <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
             {data?.map((post) => (
-              <Link to={ `post/${post.id}`} key={post.id}>
+              <Link  to={location.pathname === '/post' ? `/post/${post.id}` : `/post/${post.id}`} key={post.id}>
               <div key={post.id}>
                 
                 <div>

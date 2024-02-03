@@ -6,7 +6,7 @@ import { dataPost } from "../data";
 
 export default function Home() {
   return (
-    <div className="absolute inset-x-0 top-0 ">
+    <div className="absolute inset-x-0 top-0">
       <div className="relative isolate px-6 pt-14 lg:px-8">
 
         <Header />

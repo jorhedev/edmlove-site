@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="flex bg-white ">
+    <footer className="flex bg-white z-50">
       <div className="container px-6 py-8 mx-auto">
         <div className="flex flex-col items-center text-center">
           {/* <a href="#">
@@ -22,7 +22,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
+              href="/post"
               className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500  dark:hover:text-blue-400"
               aria-label="About"
             >
@@ -31,7 +31,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
+              href="/team"
               className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500  dark:hover:text-blue-400"
               aria-label="Teams"
             >
@@ -40,7 +40,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
+              href="/contact"
               className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500  dark:hover:text-blue-400"
               aria-label="Privacy"
             >

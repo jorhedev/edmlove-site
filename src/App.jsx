@@ -8,6 +8,7 @@ import Team from "./views/Team";
 import Contact from "./views/Contact";
 
 function App() {
+  
   return (
     <>
       <Navbar />
