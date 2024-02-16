@@ -25,7 +25,7 @@ export default function PostSingle() {
                 alt=""
               />
 
-              <div className="flex flex-col items-center justify-center text-center">
+              <div className=" flex flex-col items-center justify-center text-center">
                 <p className="mt-6 text-sm text-blue-500 uppercase">
                   {post?.date}
                 </p>
@@ -34,18 +34,18 @@ export default function PostSingle() {
                   {post?.title}
                 </h1>
 
-                <h2 className="mt-9 text-lg leading-8 text-gray-600 w-90 ">
+                <h2 className="mt-9 text-lg leading-8 text-gray-600 " style={{width:'800px'}}>
                   {post?.introduction}
                 </h2>
 
-                <p className="mt-6 text-lg leading-8 text-gray-600 w-90 ">
+                <p className="mt-6 text-lg leading-8 text-gray-600 w-90 " style={{width:'800px'}}>
                   {post?.conclusion}
                 </p>
 
                 <div className="flex items-center mt-6">
                   <img
                     className="object-cover object-center w-10 h-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                    src="https://scontent.fmex19-1.fna.fbcdn.net/v/t39.30808-6/418447227_10211057976921884_8625459629776588181_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeEe-2ZAGr5Ohmc9kXNW9OJ_P8F-Dw6ylg0_wX4PDrKWDRfCR06f7f0lsPeiy4jb1o8&_nc_ohc=eUKxUo_FaB0AX9FcIS1&_nc_ht=scontent.fmex19-1.fna&oh=00_AfA1cnQFHVgD-2LyL6ePLEMjQ2it2CXKyb306Ao6dQy_Ww&oe=65D4F8EC"
                     alt=""
                   />
 
