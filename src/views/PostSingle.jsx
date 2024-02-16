@@ -34,11 +34,11 @@ export default function PostSingle() {
                   {post?.title}
                 </h1>
 
-                <h2 className="mt-9 text-lg leading-8 text-gray-600 " style={{width:'800px'}}>
+                <h2 className="mt-9 text-lg leading-8 text-gray-600 ">
                   {post?.introduction}
                 </h2>
 
-                <p className="mt-6 text-lg leading-8 text-gray-600 w-90 " style={{width:'800px'}}>
+                <p className="mt-6 text-lg leading-8 text-gray-600 w-90 ">
                   {post?.conclusion}
                 </p>
 
