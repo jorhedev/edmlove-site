@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 export default function PostSingle() {
   const { id } = useParams();
 
-  const post = dataPost.find((post) => post.id === parseInt(id)); // Busca la publicación por su ID
+  const post = dataPost.find((post) => post.id === id); // Busca la publicación por su ID
 
   if (!post) {
     return <h1>Publicación no encontrada</h1>;

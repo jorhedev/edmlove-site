@@ -1,6 +1,6 @@
 export const dataPost = [
   {
-    id: 1,
+    id: "edc-sold-out",
     title: "¡Éxito Rotundo! EDC México 2024 Sold Out!",
     description:
       "La vibrante escena de la música electrónica está lista para otro capítulo emocionante con la llegada del Electric Daisy Carnival (EDC) México 2024",
@@ -15,7 +15,7 @@ export const dataPost = [
       "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/sites/86/2023/12/14173330/edcm_2024_mk_an_fest_site_en_mh_1534x1428_r02.jpg",
   },
   {
-    id: 2,
+    id: "edc-arte",
     title: "EDC México 2024: Una Experiencia Inmersiva de Música y Arte",
     description:
       "¡Prepárense para sumergirse en una experiencia inolvidable de música y arte en EDC México 2024!",
@@ -31,7 +31,7 @@ export const dataPost = [
       "https://prowly-uploads.s3.eu-west-1.amazonaws.com/uploads/landing_page/template_background/256484/9864e9fd05576859f2114cd2b8d9a3ce.jpg",
   },
   {
-    id: 3,
+    id: "edc-diversidad",
     title: "EDC México 2024: Celebrando la Cultura y la Diversidad",
     description:
       "El Electric Daisy Carnival (EDC) México 2024 se prepara para celebrar la diversidad y la inclusión en la escena de la música electrónica.",
@@ -47,7 +47,7 @@ export const dataPost = [
       "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2024/01/09010140/EDCORL2023_1110_142541-07705_SSH_720h.jpg",
   },
   {
-    id: 4,
+    id: "edc-kinetic-field",
     title: "EDC México 2024: Un Escenario Principal Impresionante",
     description:
       "El escenario principal de EDC México 2024 promete ser una experiencia visual y auditiva incomparable para todos los asistentes.",
@@ -63,7 +63,7 @@ export const dataPost = [
       "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2024/01/09010507/EDCORL2023_1110_211644-1079_OTU_720h.jpg",
   },
   {
-    id: 5,
+    id: "edc-sostenibilidad",
     title: "EDC México 2024: Compromiso con la Sostenibilidad",
     description:
       "EDC México 2024 implementa iniciativas ecológicas para promover la sostenibilidad ambiental durante el festival.",
@@ -79,7 +79,7 @@ export const dataPost = [
       "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2024/01/09012624/EDCORL2023_1110_172243-_SSH_720h.jpg",
   },
   {
-    id: 6,
+    id: "edc-line-up",
     title: "Anuncio del Line Up Estelar de EDC México 2024",
     description:
       "Los organizadores de EDC México 2024 revelan la emocionante alineación de artistas que encabezarán el festival de este año.",
@@ -95,7 +95,7 @@ export const dataPost = [
       "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/sites/86/2023/12/13170003/edcm_2024_mk_lu_PerDay_1080x1350_r01_Spanish.jpg",
   },
   {
-    id: 7,
+    id: "edc-boletos",
     title:
       "Venta de Boletos para EDC México 2024: ¡Disponibles Ahora en Ticketmaster!",
     description:
@@ -112,7 +112,7 @@ export const dataPost = [
       "https://lasillarota.com/u/fotografias/m/2023/8/28/f850x638-482745_560234_5050.jpg",
   },
   {
-    id: 8,
+    id: "edc-aniversario",
     title:
       "Celebrando 10 Años de Magia: EDC México Regresa al Autódromo Hermanos Rodríguez",
     description:
@@ -130,7 +130,7 @@ export const dataPost = [
   },
 
   {
-    id: 9,
+    id: "armin-breathin",
     title:
       "Armin Van Buuren Lanza 'Breathe In' y Confirma Participación en EDC México 2024",
     description:
@@ -145,5 +145,22 @@ export const dataPost = [
     by: "Jorge Tolentino",
     image:
       "https://ci3.googleusercontent.com/meips/ADKq_Nbldb5ZAWSb_dabyMgfbrABVJ65yeWTo6elixb-b-lTTGTNBwQU76CnfaXlpjNbv2q6FKigSB34TyZjSsuNeTrk83YE-JbyNH5QV15KODPl5mtaiBw4XbtZ8y8UMA_2Qs0eLxX7xyibL-AbNNSgpiH7rliev2QF7FHje4BDaZk=s0-d-e1-ft#https://mcusercontent.com/aed6a6d7aa42c05c4efe6e5f3/_compresseds/34fb969a-2047-f9aa-139b-2b7564c32e8f.jpg",
+  },
+  {
+    id: "edc-horarios",
+    title:
+      "¡Planifica tu Épico Fin de Semana! Horarios del EDC México 2024 Ahora Disponibles en la Insomniac App",
+    description:
+      "Los esperados horarios del Electric Daisy Carnival (EDC) México 2024 ya están disponibles para su consulta en la aplicación oficial de Insomniac.",
+    introduction:
+      "¡Los fanáticos de la música electrónica pueden comenzar a planificar su épico fin de semana en el EDC México 2024! La espera ha terminado, ya que Insomniac ha lanzado oficialmente los horarios completos del festival, brindando a los asistentes la oportunidad de personalizar su experiencia y no perderse ni un solo momento de sus artistas favoritos.",
+    climax:
+      "Con la Insomniac App, los asistentes pueden explorar los horarios detallados por día y escenario, asegurándose de optimizar cada momento de su experiencia en el festival. Desde los sets principales hasta las actuaciones especiales y los artistas emergentes, la aplicación ofrece una guía completa para ayudar a los asistentes a navegar por el increíble fin de semana que les espera.",
+    conclusion:
+      "No pierdas más tiempo y descarga la Insomniac App ahora mismo para comenzar a planificar tu viaje al EDC México 2024. Con los horarios ahora en tus manos, el escenario está listo para que vivas un fin de semana lleno de música, amor y conexión en el icónico Autódromo Hermanos Rodríguez.",
+    date: "Febrero 16, 2024",
+    by: "Jorge Tolentino",
+    image:
+      "https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2019/03/14200619/Screen-Shot-2019-03-14-at-1.04.30-PM.jpg",
   },
 ];
