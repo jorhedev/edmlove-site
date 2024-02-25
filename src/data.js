@@ -172,4 +172,15 @@ introduction: "El viernes 23 de febrero marcó el emocionante comienzo del Elect
 climax: "Sin embargo, a diferencia de las expectativas habituales de un deslumbrante espectáculo de pirotecnia que acompaña a actuaciones de este calibre, los asistentes se encontraron con una sorpresa inesperada. Debido a una contingencia de seguridad, no se permitió el uso de pirotecnia durante la actuación de Alesso.",
 conclusion: "Con la anticipación acumulándose para los siguientes dos días del festival, los asistentes esperan ansiosamente las sorpresas que aún están por venir. El EDC México 2024 promete continuar siendo un escaparate de los mejores artistas de la música electrónica, mientras que brinda un ambiente de celebración y camaradería que hace que cada momento sea inolvidable."
 image: "https://images.app.goo.gl/wi8H7fkQbHEqUJweA" },
+{
+id: "edc-noticia-24feb",
+title: "David Guetta enciende el escenario y cierra el segundo día del EDC México 2024",
+date: "Febrero 24, 2024",
+by: "Jorge Tolentino",
+introduction: "El sábado 24 de febrero, el Electric Daisy Carnival (EDC) México 2024 continuó su impresionante recorrido en el Autódromo Hermanos Rodríguez.",
+climax: "El esperado cierre del segundo día estuvo a cargo del legendario DJ David Guetta, quien cautivó a la multitud con un set lleno de energía, ritmo y momentos inolvidables.",
+conclusion: "Con la euforia y la emoción del segundo día aún palpables, los asistentes esperan con ansias el gran final del EDC México 2024. El festival continúa siendo un símbolo de la cultura de la música electrónica, donde la comunidad se une para celebrar la pasión y la conexión a través de la música."
+image: "https://images.app.goo.gl/QehM4qic4yRzYTis7" 
+
+}
 ];
