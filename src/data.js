@@ -171,5 +171,5 @@ by: "Jorge Tolentino",
 introduction: "El viernes 23 de febrero marcó el emocionante comienzo del Electric Daisy Carnival (EDC) México 2024 en el Autódromo Hermanos Rodríguez.",
 climax: "Sin embargo, a diferencia de las expectativas habituales de un deslumbrante espectáculo de pirotecnia que acompaña a actuaciones de este calibre, los asistentes se encontraron con una sorpresa inesperada. Debido a una contingencia de seguridad, no se permitió el uso de pirotecnia durante la actuación de Alesso.",
 conclusion: "Con la anticipación acumulándose para los siguientes dos días del festival, los asistentes esperan ansiosamente las sorpresas que aún están por venir. El EDC México 2024 promete continuar siendo un escaparate de los mejores artistas de la música electrónica, mientras que brinda un ambiente de celebración y camaradería que hace que cada momento sea inolvidable."
-image: "https://images.app.goo.gl/wi8H7fkQbHEqUJweA"
+image: "https://images.app.goo.gl/wi8H7fkQbHEqUJweA" },
 ];
