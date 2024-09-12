@@ -1,7 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Posts from "../components/Posts";
-import { dataPost } from "../data";
 // import Promo from "../components/Promo";
 
 export default function Home() {
@@ -11,7 +10,7 @@ export default function Home() {
 
         <Header />
         {/* <Promo/> */}
-        <Posts data={dataPost}/>
+        <Posts/>
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"

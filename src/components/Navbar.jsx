@@ -53,8 +53,8 @@ export default function Navbar () {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Link
-              to="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
+              to="/login"
+              className="text-sm font-semibold leading-6 text-white"
             >
               Log in <span aria-hidden="true">&rarr;</span>
             </Link>
@@ -73,7 +73,7 @@ export default function Navbar () {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src=  {logo}
                   alt=""
                 />
               </a>
@@ -101,9 +101,9 @@ export default function Navbar () {
                 </div>
                 <div className="py-6">
                   <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
+                    href="/login"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white"
+                    >
                     Log in
                   </a>
                 </div>
