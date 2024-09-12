@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";  // Importar useNavigate
 
 export default function CreatePost() {
   const apiUrl = import.meta.env.VITE_BACKEND_URL;
   const userUrl = import.meta.env.VITE_USER_URL;
   const passUrl = import.meta.env.VITE_PASS_URL;
+
+  const navigate = useNavigate();  // Inicializar useNavigate
 
   const [formData, setFormData] = useState({
     id: "",
@@ -18,6 +21,8 @@ export default function CreatePost() {
     date: "",
   });
 
+  const [isLoading, setIsLoading] = useState(false);  // Estado para manejar el loading
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevState) => ({
@@ -28,52 +33,43 @@ export default function CreatePost() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Validar que todos los campos estén llenos
+    if (Object.values(formData).some(value => value === "")) {
+      alert("Please fill in all fields");
+      return;
+    }
+
+    setIsLoading(true);  // Desactivar el botón durante el envío
     try {
-      if (
-        formData.id === "" ||
-        formData.title === "" ||
-        formData.description === "" ||
-        formData.introduction === "" ||
-        formData.climax === "" ||
-        formData.conclusion === "" ||
-        formData.author === "" ||
-        formData.image === "" ||
-        formData.date === ""
-      ) {
-        alert("Please fill in all fields");
-      } else {
-        const response = await axios.post(
-          `${apiUrl}/edmNews/createNews`,
-          formData,
-          {
-            headers: {
-              "Content-Type": "application/json",
-            },
-            auth: {
-              username: userUrl,
-              password: passUrl,
-            },
-          }
-        );
-
-        if (response.status === 201) {
-          setFormData({
-            id: "",
-            title: "",
-            description: "",
-            introduction: "",
-            climax: "",
-            conclusion: "",
-            author: "",
-            image: "",
-            date: "",
-          });
-
-          useNavigate().push("/");
+      const response = await axios.post(
+        `${apiUrl}/edmNews/createNews`,
+        formData,
+        {
+          headers: { "Content-Type": "application/json" },
+          auth: { username: userUrl, password: passUrl },
         }
+      );
+
+      if (response.status === 201) {
+        setFormData({
+          id: "",
+          title: "",
+          description: "",
+          introduction: "",
+          climax: "",
+          conclusion: "",
+          author: "",
+          image: "",
+          date: "",
+        });
+
+        navigate("/");  // Redirigir a la página principal después de crear el post
       }
     } catch (error) {
       console.error("Error creating post:", error);
+    } finally {
+      setIsLoading(false);  // Reactivar el botón después del envío
     }
   };
 
@@ -159,7 +155,8 @@ export default function CreatePost() {
           <div className="mt-6 flex items-center justify-end gap-x-6">
             <button
               type="submit"
-              className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:bg-gray-400 disabled:cursor-not-allowed"
+              disabled={isLoading}  // Botón desactivado cuando isLoading es true
             >
               Save
             </button>
