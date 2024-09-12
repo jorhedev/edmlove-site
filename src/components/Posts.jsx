@@ -26,7 +26,7 @@ export default function Posts() {
           },
         });
 
-        setData(res.data); // Establece los datos en el estado
+        setData(res?.data); // Establece los datos en el estado
       } catch (error) {
         console.error("Error fetching data:", error);
       }
