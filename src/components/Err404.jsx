@@ -11,11 +11,11 @@ export default function Err404() {
             Page not found
           </h1>
           <p className="mt-4 text-gray-500 ">
-            Sorry, the page you are looking for doesn't exist. Here are some
-            helpful links:
+            Estamos  trabajando para mejorar la experiencia de usuario.
+
           </p>
 
-          <div className="flex items-center mt-6 gap-x-3">
+          <div className="flex items-center mt-6 gap-x-3 justify-center">
           <Link to={'/'}>
             <button className="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto ">
               <svg
@@ -48,7 +48,7 @@ export default function Err404() {
         <div className="relative w-full mt-8 lg:w-1/2 lg:mt-0">
           <img
             className="w-full lg:h-[32rem] h-80 md:h-96 rounded-lg object-cover"
-            src="https://images.unsplash.com/photo-1613310023042-ad79320c00ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            src="https://imgix.cosmicjs.com/612763b0-3e4d-11ef-a504-63e081e4680f-brand-keinemusik.jpg"
             alt=""
           />
         </div>

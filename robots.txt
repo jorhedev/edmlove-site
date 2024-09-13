@@ -1,0 +1,22 @@
+# Permitir que todos los motores de búsqueda accedan a todo el sitio
+User-agent: *
+Disallow:
+
+# Bloquear acceso a directorios administrativos o de backend
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+
+# Bloquear acceso a archivos de configuración y contenido duplicado
+Disallow: /config/
+Disallow: /cgi-bin/
+Disallow: /feed/
+Disallow: /trackback/
+Disallow: /comments/
+
+# Opcional: permitir que los motores de búsqueda accedan a ciertos recursos
+Allow: /public/
+Allow: /images/
+
+# Incluir el enlace a tu sitemap para facilitar la indexación
+Sitemap: https://www.tublog.com/sitemap.xml
