@@ -1,6 +1,9 @@
+import React from "react";
+import { Link } from "react-router-dom"; // Importa el componente Link
+
 export default function Footer() {
   return (
-    <footer className="flex bg-white z-50">
+    <footer className="flex bg-white z-50 relative"> {/* Ajuste del z-index y relative */}
       <div className="container px-6 py-8 mx-auto">
         <div className="flex flex-col items-center text-center">
           {/* <a href="#">
@@ -12,49 +15,44 @@ export default function Footer() {
           </a> */}
 
           <div className="flex flex-wrap justify-center mt-6 -mx-4">
-            <a
-              href="/"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500  dark:hover:text-blue-400"
+            <Link
+              to="/"
+              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-400"
               aria-label="Home"
             >
-              {" "}
-              Home{" "}
-            </a>
+              Home
+            </Link>
 
-            <a
-              href="/post"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500  dark:hover:text-blue-400"
-              aria-label="About"
+            <Link
+              to="/post"
+              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-400"
+              aria-label="Noticias"
             >
-              {" "}
-              Noticias{" "}
-            </a>
+              Noticias
+            </Link>
 
-            <a
-              href="/team"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500  dark:hover:text-blue-400"
-              aria-label="Teams"
+            <Link
+              to="/team"
+              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-400"
+              aria-label="Team"
             >
-              {" "}
-              Team{" "}
-            </a>
+              Team
+            </Link>
 
-            <a
-              href="/contact"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500  dark:hover:text-blue-400"
-              aria-label="Privacy"
+            <Link
+              to="/contact"
+              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-400"
+              aria-label="Contact"
             >
-              {" "}
-              Contacto{" "}
-            </a>
+              Contacto
+            </Link>
 
             <a
               href="#"
-              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500  dark:hover:text-blue-400"
+              className="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-400"
               aria-label="Cookies"
             >
-              {" "}
-              Cookies{" "}
+              Cookies
             </a>
           </div>
         </div>
@@ -62,14 +60,14 @@ export default function Footer() {
         <hr className="my-6 border-gray-200 md:my-10 dark:border-gray-700" />
 
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
-          <p className="text-sm text-gray-500 ">
+          <p className="text-sm text-gray-500">
             © Copyright 2024. All Rights Reserved.
           </p>
 
           <div className="flex -mx-2">
             <a
               href="#"
-              className="mx-2 text-gray-600 transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400"
+              className="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-400"
               aria-label="GitHub"
             >
               <svg

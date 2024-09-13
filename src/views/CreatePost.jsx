@@ -19,7 +19,7 @@ export default function CreatePost() {
     author: "",
     image: "",
     date: "",
-  });
+  });  
 
   const [isLoading, setIsLoading] = useState(false);  // Estado para manejar el loading
 
