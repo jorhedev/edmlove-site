@@ -61,10 +61,13 @@ export default function Footer() {
 
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
           <p className="text-sm text-gray-500">
-            © Copyright 2024. All Rights Reserved.
+            © Copyright 2025. All Rights Reserved.
           </p>
 
           <div className="flex -mx-2">
+          <p className="text-sm text-gray-500">
+            Web desarrollada por Jorge Tolentino
+          </p>
             <a
               href="#"
               className="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-400"
